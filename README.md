@@ -52,7 +52,7 @@ The application integrates with the [Postal Pincode API](https://api.postalpinco
 
 Create a new movie entry.
 #### Request Body
-```json
+
 {
     "movieName": "Inception",
     "pincode": "123456"
@@ -79,7 +79,6 @@ Create a new movie entry.
   - Submits a new rating and review for a movie.
 Submit a new rating entry.
 #### Request Body
-```json
 {
     "movieId": {
         "movieId": 1,
